@@ -10,11 +10,11 @@ We’ll test your front-end abilities by having you develop a single page of a f
 * Use MVC
 * The view can consist of static markup
 * Images files are located here:
-  * Project/Assets/Images
+  * project/assets/images
 * Web fonts are located here:
-  * Project/Assets/Fonts
+  * project/assets/fonts
 * Design/spec file is located here:
-  * Project/Design
+  * project/design
 
 ### Preferred
 * Use SASS/LESS
