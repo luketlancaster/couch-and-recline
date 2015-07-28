@@ -6,15 +6,14 @@ You are to develop a marketing site for Couch & Recline that lists various types
 ### Description
 We’ll test your abilities by having you develop a single page of a fictional marketing site.  The site will list various types of furniture, organized by category.  Take your time and code as much as you can utilizing the designs provided.
 
+### Assets 
+* Images files are located here: [`/assets/images`](/assets/images)
+* Web fonts are located here: [`/assets/fonts`](/assets/fonts)
+* Design/spec file is located here: [`/design`](/design)
+
 ### Requirements
 * Use an MVC/MV* framework
 * Dynamically load furniture data into view
-* Images files are located here:
-  * [`/assets/images`](/assets/images)
-* Web fonts are located here:
-  * [`/assets/fonts`](/assets/fonts)
-* Design/spec file is located here:
-  * [`/design`](/design)
 
 ### Preferred
 * Use CSS preprocessor such as Sass or Less
