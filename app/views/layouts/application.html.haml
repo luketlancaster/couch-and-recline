@@ -19,8 +19,8 @@
 
     %footer
       .footer_content
-        %form
+        %form#contact_form
           %h3.footer_title Sign up for our newsletter:
-          %input{:type => "text", :placeholder => "NAME"}
-          %input{:type => "email", :placeholder => "EMAIL"}
-          %button SUBMIT
+          %input{:type => "text", :name => "name", :placeholder => "NAME"}
+          %input{:type => "email", :name => "email", :placeholder => "EMAIL"}
+          %button#form_button SUBMIT
