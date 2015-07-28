@@ -77,9 +77,3 @@ test:
 #
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
-#
-production:
-  <<: *default
-  database: couch-and-recline_production
-  username: couch-and-recline
-  password: <%= ENV['COUCH-AND-RECLINE_DATABASE_PASSWORD'] %>
