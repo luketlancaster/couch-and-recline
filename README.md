@@ -19,8 +19,8 @@ We’ll test your abilities by having you develop a single page of a fictional m
 ### Preferred
 * Use CSS preprocessor such as Sass or Less
 * Utilize a custom backend or BaaS to persist the furniture data
-* Submit signup form without refreshing the page (AJAX)
 
 ### Bonus
 * Create responsive styles for smaller viewports
 * Add functionality to newsletter signup form (send an email to the registered user)
+* Submit signup form without refreshing the page (AJAX)
