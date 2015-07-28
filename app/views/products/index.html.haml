@@ -1,7 +1,8 @@
 .furnature
   - @products.each do |product|
+    .grid-sizer
     .product
       =image_tag "#{product.name}.jpg", :class => "furnature_image"
       %h3.furnature_name= product.name
       %p.quick_info click for quick-info
-      %p.quick_info_text= product.description
+      %p.quick_info_text.hidden= product.description

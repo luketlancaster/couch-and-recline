@@ -12,4 +12,5 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require masonry.min
 //= require_tree .

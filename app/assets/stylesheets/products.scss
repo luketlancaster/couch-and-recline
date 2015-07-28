@@ -1,11 +1,14 @@
 .furnature {
-  width: $base-width;
+  width: 975px;
   display: block;
   margin: auto;
+  .grid-sizer {
+    width: 311px;
+  }
   .product {
     padding: 35px 0;
     text-transform: uppercase;
-    width: 329px;
+    width: 311px;
     .furnature_image {
       width: 303px;
       height: 303px;

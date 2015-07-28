@@ -2,6 +2,9 @@ body {
   font-family: $base-font-family;
   width: 1160px;
   margin: 0 auto;
+  .hidden {
+    display: none;
+  }
   .logo {
     background-image: image-url("logo.png");
     background-repeat: no-repeat;
@@ -81,6 +84,7 @@ body {
           color: $white;
           margin: 0 auto;
           font-weight: normal;
+          cursor: pointer;
         }
       }
     }
