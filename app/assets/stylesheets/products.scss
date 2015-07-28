@@ -1,3 +1,43 @@
-// Place all the styles related to the Products controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.furnature {
+  width: $base-width;
+  display: block;
+  margin: auto;
+  .product {
+    padding: 35px 0;
+    text-transform: uppercase;
+    width: 329px;
+    .furnature_image {
+      width: 303px;
+      height: 303px;
+      padding: 13px;
+    }
+    .furnature_name {
+      color: $dark-gray;
+      font-size: 33px;
+      margin: 0;
+      padding: 0 13px;
+      font-weight: normal;
+    }
+    .quick_info {
+      color: $orange;
+      font-size: 20px;
+      margin: 0;
+      padding: 0 13px;
+      font-weight: normal;
+      cursor: pointer;
+      &:after {
+        content: " +"
+      }
+    }
+    .quick_info_text {
+      color: $dark-gray;
+      font-size: 14px;
+      text-transform: none;
+      font-family: $copy-font-family;
+      margin: 0;
+      padding: 13px;
+    }
+  }
+}
+
+

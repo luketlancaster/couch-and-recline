@@ -1,0 +1,7 @@
+.furnature
+  - @products.each do |product|
+    .product
+      =image_tag "#{product.name}.jpg", :class => "furnature_image"
+      %h3.furnature_name= product.name
+      %p.quick_info click for quick-info
+      %p.quick_info_text= product.description
