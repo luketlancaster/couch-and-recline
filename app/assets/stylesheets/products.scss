@@ -21,23 +21,23 @@
       padding: 0 13px;
       font-weight: normal;
     }
-    .quick_info {
+    .quick_info, .plus {
       color: $orange;
       font-size: 20px;
       margin: 0;
       padding: 0 13px;
       font-weight: normal;
       cursor: pointer;
-      &:after {
-        content: " +"
-      }
+    }
+    .plus {
+      padding: 0;
     }
     .quick_info_text {
       color: $dark-gray;
       font-size: 14px;
       text-transform: none;
       font-family: $copy-font-family;
-      margin: 0;
+      margin: 20px 0;
       padding: 13px;
     }
   }
