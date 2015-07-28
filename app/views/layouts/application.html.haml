@@ -8,5 +8,18 @@
     = csrf_meta_tags
     %meta{:content => "width=device-width,initial-scale=1,minimum-scale=1", :name => "viewport"}
   %body
-    %img{:href => "./assets/images/logo.png"}
+    .logo
+    .content
+      .category
+        =image_tag "category.jpg", :class => "category_intro"
+        %h2.category_title Handcrafted Furniture
+        %p.category_intro_text We're collaborating with over 20 artisan groups in 15 countries, making long-term commitments of 3 to 5 years to each of these manufacturers. We're directly impacting the lives of 4,500 artisan workers and 18,000 family members. Over 1/2 of these artisans are women who are learning new skills, supporting their families and empowering themselves through the work they're doing.
     = yield
+
+    %footer
+      .footer_content
+        %form
+          %h3.footer_title Sign up for our newsletter:
+          %input{:type => "text", :placeholder => "NAME"}
+          %input{:type => "email", :placeholder => "EMAIL"}
+          %button SUBMIT
