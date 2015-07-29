@@ -2,13 +2,16 @@
   width: 975px;
   display: block;
   margin: auto;
+  /*@include outer-container;*/
   .grid-sizer {
     width: 311px;
   }
   .product {
+    /*@include span-columns(4);*/
     padding: 35px 0;
     text-transform: uppercase;
     width: 311px;
+    margin: 0 5px;
     .furnature_image {
       width: 303px;
       height: 303px;
@@ -37,8 +40,8 @@
       font-size: 14px;
       text-transform: none;
       font-family: $copy-font-family;
-      margin: 20px 0;
-      padding: 13px;
+      margin: 20px 0 0 0;
+      padding: 13px 13px 0 13px;
     }
   }
 }

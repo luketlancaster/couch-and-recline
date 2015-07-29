@@ -13,4 +13,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require masonry.min
+//= require jquery.matchHeight-min
 //= require_tree .
