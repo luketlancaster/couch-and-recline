@@ -41,12 +41,18 @@ body {
         margin-bottom: 0;
         text-transform: uppercase;
         font-weight: normal;
+        @include media(max-width 1159px) {
+          padding: 0 10px;
+        }
       }
       .category_intro_text {
         font-family: $copy-font-family;
         color: $dark-gray;
         font-size: 16px;
         margin: 0;
+        @include media(max-width 1159px) {
+          padding: 0 10px;
+        }
       }
     }
   }
