@@ -2,6 +2,9 @@
   width: 975px;
   display: block;
   margin: auto;
+  @include media(max-width 1159px) {
+    width: 100%;
+  }
   /*@include outer-container;*/
   .grid-sizer {
     width: 311px;
@@ -12,10 +15,21 @@
     text-transform: uppercase;
     width: 311px;
     margin: 0 5px;
+    @include media(max-width 1159px) {
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+    }
     .furnature_image {
       width: 303px;
       height: 303px;
       padding: 13px;
+      @include media(max-width 1159px) {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+        display: block;
+      }
     }
     .furnature_name {
       color: $dark-gray;
