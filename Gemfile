@@ -33,3 +33,7 @@ group :test do
   gem 'shoulda-matchers'
 end
 
+group :production do
+  gem 'puma'
+  gem 'rails_12factor'
+end
