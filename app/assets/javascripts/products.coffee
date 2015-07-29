@@ -32,7 +32,10 @@ $ ->
       data:
         name: fields.name
         email: fields.email).done ->
-      alert 'Thank you, for contacting us'
+      $('.footer_alert').html 'Thanks, ' + fields.name + ', be on the lookout for an email from us!'
+      $('.footer_alert').css('color', '#ffa409')
+      $('#contact_form').find('input').each ->
+        $(this).val('')
       return
 
 
